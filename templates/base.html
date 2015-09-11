@@ -23,20 +23,24 @@
 <body>
 	<header>
 		<div>
-			<a href="PrivacyPolicy.html">Privacy Policy</a>
+			<ul class="navi">
+				<li><a href="http://c-tracker.tumblr.com" target="_blank">Did you know?</a></li>
+				<li><a href="http://www.chip.org" target="_blank">Technology</a></li>
+				<li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+			</ul>
 		</div>
 	</header>
 	<div id="container">
 		<div id="content">
 			<p id="logo">
-				<a href="index.html"><img src="static/C-Tracker.png" alt="C Tracker"></a>
+				<a href="index.html"><img src="static/C-Tracker.png" srcset="static/C-Tracker@2x.png 2x, static/C-Tracker@3x.png 3x" alt="C Tracker"></a>
 			</p>
 			{{ content|safe }}
 		</div>
 	</div>
 	<footer>
 		<p><a href="http://www.chip.org">
-			<img src="static/ResearchInstitute.png" alt="">
+			<img class="institute" src="static/ResearchInstitute-web.png" srcset="static/ResearchInstitute-web@2x.png 2x, static/ResearchInstitute-web@3x.png 3x" alt="">
 		</a></p>
 		<p>Copyright © Boston Children's Hospital 2015</p>
 	</footer>

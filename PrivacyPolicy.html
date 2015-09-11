@@ -10,12 +10,12 @@
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
 	<meta name="apple-mobile-web-app-capable" content="no" />
 	<meta name="msapplication-TileColor" content="rgb(57,99,159)" />
-	<meta name="msapplication-TileImage" content="static/icon-144.png" />
+	<meta name="msapplication-TileImage" content="static/Icon-144.png" />
 	
-	<link rel="apple-touch-icon" sizes="76x76" href="static/icon-76.png" /><!-- non-retina iPad iOS 7+ -->
-	<link rel="apple-touch-icon" sizes="120x120" href="static/icon-60@2x.png" /><!-- retina iPhones @2x iOS 7+ -->
-	<link rel="apple-touch-icon" sizes="152x152" href="static/icon-76@2x.png" /><!-- retina iPads iOS 7+ -->
-	<link rel="apple-touch-icon" sizes="180x180" href="static/icon-60@3x.png" /><!-- retina iPhones @3x iOS 7+ -->
+	<link rel="apple-touch-icon" sizes="76x76" href="static/Icon-76.png" /><!-- non-retina iPad iOS 7+ -->
+	<link rel="apple-touch-icon" sizes="120x120" href="static/Icon-60@2x.png" /><!-- retina iPhones @2x iOS 7+ -->
+	<link rel="apple-touch-icon" sizes="152x152" href="static/Icon-76@2x.png" /><!-- retina iPads iOS 7+ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="static/Icon-60@3x.png" /><!-- retina iPhones @3x iOS 7+ -->
 	
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Delius">
 	<link rel="stylesheet" type="text/css" href="static/style.css">
@@ -23,13 +23,17 @@
 <body>
 	<header>
 		<div>
-			<a href="PrivacyPolicy.html">Privacy Policy</a>
+			<ul class="navi">
+				<li><a href="http://c-tracker.tumblr.com" target="_blank">Did you know?</a></li>
+				<li><a href="http://www.chip.org" target="_blank">Technology</a></li>
+				<li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+			</ul>
 		</div>
 	</header>
 	<div id="container">
 		<div id="content">
 			<p id="logo">
-				<a href="index.html"><img src="static/C-Tracker.png" alt="C Tracker"></a>
+				<a href="index.html"><img src="static/C-Tracker.png" srcset="static/C-Tracker@2x.png 2x, static/C-Tracker@3x.png 3x" alt="C Tracker"></a>
 			</p>
 			
 <h1>Privacy Policy</h1>
@@ -223,7 +227,7 @@
 	</div>
 	<footer>
 		<p><a href="http://www.chip.org">
-			<img src="static/ResearchInstitute.png" alt="">
+			<img class="institute" src="static/ResearchInstitute-web.png" srcset="static/ResearchInstitute-web@2x.png 2x, static/ResearchInstitute-web@3x.png 3x" alt="">
 		</a></p>
 		<p>Copyright © Boston Children's Hospital 2015</p>
 	</footer>
