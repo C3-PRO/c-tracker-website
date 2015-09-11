@@ -136,11 +136,9 @@ footer p:first-child {
 	h1 {
 		font-size: 1.7em;
 	}
-	header {
-		font-size: 13pt;
-	}
 	header div {
 		padding-left: 15px; padding-right: 15px;
+		font-size: 13pt;
 	}
 	#container {
 		padding-bottom: 2em;
@@ -190,11 +188,9 @@ footer p:first-child {
 	h1 {
 		font-size: 1.7em;
 	}
-	header {
-		font-size: 13pt;
-	}
 	header div {
 		padding: 0.5em 20px 0.33em;
+		font-size: 13pt;
 	}
 	#container {
 		background-size: 1024px 143px; background-position: center 6em;
