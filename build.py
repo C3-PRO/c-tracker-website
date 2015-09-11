@@ -18,8 +18,14 @@ with io.open('content/index.html', 'r', encoding="utf-8") as handle:
 	app_template.stream(title="C Tracker", content=content) \
 		.dump('./index.html')
 
+# team
+with io.open('content/team.html', 'r', encoding="utf-8") as handle:
+	content = handle.read()
+	app_template.stream(title="The Team • C Tracker", content=content) \
+		.dump('./team.html')
+
 # Privacy Policy
 with io.open('c-tracker-content/PrivacyPolicy.html', 'r', encoding="utf-8") as handle:
 	content = handle.read()
-	app_template.stream(title="Privacy Policy", content=content) \
+	app_template.stream(title="Privacy Policy • C Tracker", content=content) \
 		.dump('./PrivacyPolicy.html')

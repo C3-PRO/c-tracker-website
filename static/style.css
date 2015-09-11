@@ -38,6 +38,7 @@ footer {
 }
 
 #container {
+	position: relative;
 	min-height: 70%;
 	padding: 0 1.5em 4em;
 	background: white url("background.png") center 6em no-repeat;
@@ -102,10 +103,16 @@ ul.navi {
 .download {
 	margin-top: 5em; text-align: center;
 }
+.download-top {
+	position: absolute;
+	top: 20px; right: 20px; width: 120px;
+}
 .appstore {
 	width: 180px;
 }
-
+.download-top .appstore {
+	width: 100%;
+}
 
 /* Header & Footer */
 header div {
@@ -141,7 +148,7 @@ footer p:first-child {
 		font-size: 13pt;
 	}
 	#container {
-		padding-bottom: 2em;
+		padding: 0 1em 2em;
 		background-size: 600px 84px; background-position: center 5em;
 	}
 	#logo {
@@ -200,6 +207,12 @@ footer p:first-child {
 	}
 	#logo img {
 		width: 333px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.download-top {
+		display: none;
 	}
 }
 
