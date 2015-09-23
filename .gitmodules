@@ -1,3 +1,6 @@
 [submodule "c-tracker-content"]
 	path = c-tracker-content
 	url = https://bitbucket.org/ihlchip/c-tracker-content
+[submodule "c-tracker-faq"]
+	path = c-tracker-faq
+	url = https://github.com/chb/c-tracker-faq.git
