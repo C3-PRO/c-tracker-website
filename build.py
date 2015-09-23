@@ -29,3 +29,10 @@ with io.open('c-tracker-content/PrivacyPolicy.html', 'r', encoding="utf-8") as h
 	content = handle.read()
 	app_template.stream(title="Privacy Policy • C Tracker", content=content) \
 		.dump('./PrivacyPolicy.html')
+
+
+# FAQ
+with io.open('c-tracker-faq/web/FAQ.html', 'r', encoding="utf-8") as handle:
+	content = handle.read()
+	app_template.stream(title="FAQ • C Tracker", content=content) \
+		.dump('./FAQ.html')
