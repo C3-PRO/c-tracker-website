@@ -30,7 +30,6 @@ with io.open('c-tracker-content/PrivacyPolicy.html', 'r', encoding="utf-8") as h
 	app_template.stream(title="Privacy Policy • C Tracker", content=content) \
 		.dump('./PrivacyPolicy.html')
 
-
 # FAQ
 with io.open('c-tracker-faq/web/FAQ.html', 'r', encoding="utf-8") as handle:
 	content = handle.read()
