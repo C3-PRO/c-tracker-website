@@ -11,7 +11,10 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
 	clear: both;
-	margin: 1.5em 0 0.5em;
+	margin: 1.5em 0 0.6em;
+}
+h2 {
+	margin: 1.5em 0 0.7em;
 }
 p {
 	margin: 0.75em 0 0;

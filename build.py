@@ -6,6 +6,7 @@
 #  - jinja2
 
 import io
+import markdown
 from jinja2 import Environment, PackageLoader
 
 
@@ -19,8 +20,9 @@ with io.open('content/index.html', 'r', encoding="utf-8") as handle:
 		.dump('./index.html')
 
 # team
-with io.open('content/team.html', 'r', encoding="utf-8") as handle:
-	content = handle.read()
+with io.open('content/team.md', 'r', encoding="utf-8") as handle:
+	raw = handle.read()
+	content = markdown.markdown(raw, output_format='html5')
 	app_template.stream(title="The Team • C Tracker", content=content) \
 		.dump('./team.html')
 
@@ -31,7 +33,8 @@ with io.open('c-tracker-content/PrivacyPolicy.html', 'r', encoding="utf-8") as h
 		.dump('./PrivacyPolicy.html')
 
 # FAQ
-with io.open('c-tracker-faq/web/FAQ.html', 'r', encoding="utf-8") as handle:
-	content = handle.read()
+with io.open('c-tracker-faq/web/FAQ.md', 'r', encoding="utf-8") as handle:
+	raw = handle.read()
+	content = markdown.markdown(raw, output_format='html5')
 	app_template.stream(title="FAQ • C Tracker", content=content) \
 		.dump('./FAQ.html')
