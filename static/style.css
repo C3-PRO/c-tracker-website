@@ -11,7 +11,10 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
 	clear: both;
-	margin: 1.5em 0 0.5em;
+	margin: 1.5em 0 0.6em;
+}
+h2 {
+	margin: 1.5em 0 0.7em;
 }
 p {
 	margin: 0.75em 0 0;
@@ -44,9 +47,12 @@ footer {
 	background: white url("background.png") center 6em no-repeat;
 }
 
-#content {
+.content {
 	max-width: 800px;
-	margin: 0 auto; padding: 0 0 2em;
+	margin: 0 auto; padding: 0;
+}
+.content.main {
+	padding: 0 0 2em;
 }
 
 #logo {
@@ -125,11 +131,29 @@ header div a {
 	color: white;
 }
 
-footer p {
+footer > p {
 	margin-top: 2em;
 }
-footer p:first-child {
+footer > p:first-child {
 	margin-top: 0;
+}
+footer .resources {
+	margin-bottom: 4em;
+	display: -ms-flexbox; display: flex;
+	line-height: 200%;
+}
+footer .resources p {
+	width: 50%;
+	margin: 0; padding: 1em 0;
+	text-align: right;
+}
+footer .resources p:last-child {
+	text-align: left;
+}
+footer .resources .center {
+	width: 2px;
+	margin: 0 2em; padding: 0;
+	background-color: rgba(0,0,0,0.2);
 }
 
 
