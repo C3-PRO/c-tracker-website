@@ -18,4 +18,4 @@ Collaborators
 We thank our collaborators at <a href="http://www.wondros.com" target="_blank">_Wondros_</a>, who created our wonderful movie and graphics.
 A big thank you goes to _Boston Children's IRB_ for their fast responses and willingness to tread on new terrain.
 
-We also thank the <a href="http://www.globalliver.org" _target="_blank">_Global Liver Instutite_</a>, the <a href="http://www.liverfoundation.org/" target="_blank">_American Liver Foundation_</a> and the _American Association for the Study of Liver Diseases_ (<a href="http://www.aasld.org" _target="blank">AASLD</a>) for promoting the use of C&nbsp;Tracker and the study of hepatitis&nbsp;C.
+We also thank the <a href="http://www.globalliver.org" _target="_blank">_Global Liver Institute_</a>, the <a href="http://www.liverfoundation.org/" target="_blank">_American Liver Foundation_</a> and the _American Association for the Study of Liver Diseases_ (<a href="http://www.aasld.org" _target="blank">AASLD</a>) for promoting the use of C&nbsp;Tracker and the study of hepatitis&nbsp;C.
